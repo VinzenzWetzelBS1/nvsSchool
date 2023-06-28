@@ -1,5 +1,4 @@
-from Teacher import Teacher
+from grade import Grade
 
-teacher_1 = Teacher("Alex", "Grindl")
-print(teacher_1.get_last_name())
-a = 2
+note = Grade(1.0, None, 7, None, None)
+print(note.get_level())
